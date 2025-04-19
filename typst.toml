@@ -6,3 +6,11 @@ authors = ["Daniel F.H."]
 license = "LGPLv3"
 description = "A template for writing movie/tv/theater-scripts in screenplay format."
 repository = "https://github.com/danielFHcode/typst-screenplay"
+keywords = [
+  "screenplay",
+  "movie-script",
+  "movie",
+  "film",
+  "television",
+  "theater",
+]

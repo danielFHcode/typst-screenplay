@@ -1,4 +1,4 @@
-# Screenplay
+# It's Scripted
 
 A template for writing a film/TV script in screenplay format. This is a mix of the format used by final draft and the official format suggested by the oscars, with some slight changes.
 
@@ -7,7 +7,7 @@ A template for writing a film/TV script in screenplay format. This is a mix of t
 > Before you start please make sure to download and install either the font `Courier` or `Courier New`.
 
 ```typ
-#import "@preview/screenplay:0.1.0": *
+#import "@preview/its-scripted:0.1.0": *
 
 #show: screenplay.with()
 

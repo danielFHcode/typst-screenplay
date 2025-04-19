@@ -1,4 +1,4 @@
-# Typst Screenplay Documentation
+# `its-scripted` Documentation
 
 ## Fonts
 

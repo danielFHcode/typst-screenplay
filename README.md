@@ -82,6 +82,8 @@ Suddenly a PTERODACTYL flies through the coffee-shop window.
 
 Check [docs.md](docs.md) for the full documentation.
 
+You can also read [example.typ](example.typ) for an example screenplay (the first 2 pages of jurassic park).
+
 ## Improvements
 
 This library is still pre-1.0, so the look and fill of it still isn't finalized. If you have any suggestions for improvements to make screenplays look more professional of readable, or you found some issue/bug/missing feature - please create an issue on the github and, if you are able to, please consider contributing.

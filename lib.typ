@@ -13,6 +13,7 @@
       "Courier New",
       "DejaVu Sans Mono",
     ),
+    dir: dir,
   )
   set page(
     margin: if dir == ltr {
@@ -187,19 +188,27 @@
   if parens [(#body)] else [#body],
 )
 
-#let close(body) = {
+#let close(body, capitalize: true) = {
   block(
     inset: (top: 0.7em, bottom: 0.7em),
     width: 100%,
     align(
       center,
-      upper({
+      if capitalize {
+        upper({
+          if type(body) == int [
+            end of act #body
+          ] else {
+            body
+          }
+        })
+      } else {
         if type(body) == int [
           end of act #body
         ] else {
           body
         }
-      }),
+      },
     ),
   )
 }
